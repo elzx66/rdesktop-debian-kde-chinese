@@ -15,9 +15,10 @@ if [ ! -d "${HOME}/Desktop" ]; then
     mkdir -p "${HOME}/Desktop"
 fi
 
-# 复制 Chromium 和 WPS Office 的桌面快捷方式到桌面
+# 复制 Chromium、fcitx输入法(第一次进桌面点击一下,初始化一下输入法，之后删除就行)、 WPS Office 的桌面快捷方式到桌面
 cp /usr/share/applications/chromium.desktop "${HOME}/Desktop/"
 cp /usr/share/applications/wps-office-prometheus.desktop "${HOME}/Desktop/"
+cp /usr/share/applications/fcitx.desktop "${HOME}/Desktop/"
 
 # 创建 PyCharm 的桌面快捷方式
 cat << EOF > ${HOME}/Desktop/pycharm.desktop

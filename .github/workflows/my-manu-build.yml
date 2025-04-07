@@ -27,5 +27,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/rdesktop-debian-kde-chinese:1.0.0
+            ghcr.io/${{ github.repository_owner }}/rdesktop-debian-kde-chinese:1.0.1
             ghcr.io/${{ github.repository_owner }}/rdesktop-debian-kde-chinese:latest
